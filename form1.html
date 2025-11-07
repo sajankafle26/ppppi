@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://google.com/search" target="_blank">
+        <input type="text" name="q">
+        <button>Search</button>
+    </form>
+
+    <form action="https://broadwayinfosys.com/search/result" target="_blank">
+        <input type="text" name="search">
+        <button>Search</button>
+    </form>
+
+    <form>
+        date & time <input type="datetime-local" name="n1">
+        <hr>
+        week <input type="week" name="week">
+        <hr>
+        month <input type="month" name="month">
+        <hr>
+        Range <input type="range" name="price">
+        <hr>
+        domain <input type="url" name="domain">
+        <hr>
+        food: <select name="food" multiple size="6">
+            <optgroup label="Fruits">
+                <option>Mango</option>
+                <option>Apple</option>
+            </optgroup>
+            <optgroup label="veg">
+                <option>potato</option>
+                <option>tomato</option>
+            </optgroup>
+        </select>
+        <hr>
+        country: <input type="text" name="co_list" list="co_list1">
+        <datalist id="co_list1">
+            <option>Nepal</option>
+            <option>india</option>
+            <option>bhutan</option>
+            <option>tibet</option>
+        </datalist>
+        <hr>
+        placeholder <input type="text" name="n2" placeholder="Enter Full Name">
+        <hr>
+        required <input type="text" name="n3" required>
+        <hr>
+        value <input type="text" name="n4" value="Sajan">
+        <hr>
+        Readonly <input type="text" name="n5" value="Sajan" readonly>
+        <hr>
+        disabled <input type="text" name="n6" value="Sajan" disabled>
+        <hr>
+        
+        autocomplete <input type="text" name="email" autocomplete="off">
+        <hr>
+        autofocus <input type="text" name="" autofocus="">
+        <hr>
+        file: <input type="file" name="photo" accept="image/*">
+        <hr>
+        <button>send</button>
+    </form>
+</body>
+
+</html>
